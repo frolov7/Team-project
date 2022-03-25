@@ -1,0 +1,259 @@
+body {
+    background: url('../images/bg.jpg') no-repeat;
+    background-color: #151515;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header {
+    padding: 100px 0px 100px 0px;
+    color: rgb(255, 139, 0);
+}
+
+span {
+    font-weight: bold;
+}
+
+dd {
+    width: 200px;
+}
+
+.content {
+    min-height: 700px;
+}
+
+.span {
+
+}
+
+.image-search {
+    height: 210px;
+    width: 140px;
+    border-radius: 2px;
+}
+
+.film-card {
+    height: 210px;
+    width: auto;
+    overflow: hidden;
+}
+
+.film-card:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+h2 {
+    margin: 20px 0px 20px 0px;
+}
+
+.h2-info {
+    margin: 20px 0px 20px 140px;
+}
+
+.card {
+    background-color: #FFF;
+}
+
+.card-body-info {
+    padding-top: 0px;
+}
+
+.all-info {
+    height: 200px;
+    padding-left: 40px;
+    vertical-align: middle;
+}
+
+.more-info {
+    padding-left: 40px;
+    vertical-align: top;
+}
+
+.info {
+    margin-bottom: 0px;
+    opacity: 1;
+}
+
+.image {
+    padding: 0px;
+}
+
+.image-more {
+    height: auto;
+    width: 270px;
+    border-radius: 2px;
+}
+
+.film-card-body {
+    padding: 10px 30px 10px 30px;
+}
+
+form {
+    margin-bottom: 20px;
+    opacity: 1;
+}
+
+.search-bar {
+    padding-bottom: 20px;
+    border-radius: 2px 0px 0px 2px;
+    border-right: 2px solid #000;
+    background-color: rgb(255, 255, 255, 0.9);
+}
+
+.btn {
+	border-color: #000;
+	font-weight: bold;
+	color: rgb(255, 139, 0);
+}
+
+.btn:hover {
+	border-color: rgb(255, 139, 0);
+	background-color: rgb(255, 139, 0);
+	font-weight: bold;
+	color: #FFF;
+}
+
+.btn-secondary, .btn-primary {
+    background-color: rgb(255, 139, 0);
+    font-weight: bold;
+    border-color: rgb(255, 139, 0);
+    color: #FFF;
+}
+
+.btn-secondary:hover, .btn-primary:hover {
+    background-color: #AB5C00;
+    border-color: #AB5C00;
+    color: #FFF;
+}
+
+
+.search-rez {
+    border-radius: 0px 2px 2px 0px;
+}
+
+.descr {
+    margin-top: 20px;
+}
+
+h5 {
+    margin: 20px;
+    padding: 10px;
+    margin-left: 35px;
+    background-color: rgb(255, 139, 0);
+    border-radius: 5px;
+    color: #FFF;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 100px;
+}
+
+.footter {
+    background-color: rgb(255, 139, 0);
+    color: #FFF;
+}
+
+.please-scroll {
+    height: 100px;
+    overflow-y: auto;
+}
+
+.custom-control {
+    margin-left: 10px;
+}
+
+.slider {
+    width: 80%;
+    height: 5px;
+    background: #555;
+    position: relative;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.slider .bar {
+    position: absolute;
+    left: 50px;
+    width: 300px;
+    background: rgb(255, 139, 0);
+    height: 100%;
+    margin-left: -5px;
+}
+
+.slider .bar .lp span {
+    font-size: 11px;
+    font-weight: normal;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    left: 0px;
+}
+
+.slider .bar .rp span {
+    font-weight: normal;
+position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 11px;
+    left: 0px;
+}
+
+
+.slider .bar .lp,
+.slider .bar .rp {
+    cursor: pointer;
+    background: #555;
+    width: 30px;
+    height: 30px;
+    border: 3px solid rgb(255, 139, 0);
+    border-radius: 100%;
+    position: absolute;
+    line-height: 400%;
+    color: #555;
+    user-select: none;
+}
+
+.slider .bar .lp {
+    left: 0px;
+    top: -15px;
+}
+
+.slider .bar .rp {
+    left: 100%;
+    top: -15px;
+}
+
+.np-text {
+    padding: 0px;
+}
+
+.custom-control-label:before {
+    background-color: rgb(255, 139, 0);
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: rgb(255, 139, 0);
+}
+
+.form-control:focus {
+    border-color: #000;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 100, 255, 0.5);
+}
+
+#inputActor {
+    height: 200px;
+}
