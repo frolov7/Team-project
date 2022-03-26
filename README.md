@@ -18,5 +18,3 @@ https://time-for-series.herokuapp.com/
 
 Ссылка на [отчет](M726.pdf)
 
-
-
